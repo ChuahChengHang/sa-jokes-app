@@ -51,9 +51,9 @@ struct ContentView: View {
                 } label: {
                     Text("What?")
                         .padding()
-                        .background(Color.blue)
                         .foregroundStyle(.white)
                 }
+                .buttonStyle(.borderedProminent)
                 .padding()
                 
                 if showPunchline {
